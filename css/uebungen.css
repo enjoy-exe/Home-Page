@@ -1,0 +1,8 @@
+.uebungen {
+	scroll-behavior: smooth;
+}
+
+.uebungen div {
+	min-height: 100vh;
+	height: 100vh;
+}

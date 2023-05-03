@@ -1,0 +1,47 @@
+.anordnungringe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rings-image {
+	width: 20%;
+	padding-left: 180px;
+}
+
+.rings-container {
+	background-color: rgb(21, 21, 129);
+	padding: 6px;
+	border-radius: 10px;
+}
+
+.text {
+	width: 50vw;
+}
+
+.text p {
+	word-wrap: auto;
+}
+
+.item-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: space-between;
+}
+
+.item {
+	margin-top: 15px;
+	width: 50vw;
+}
+
+.img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+}
+
+.item-img {
+	width: 100%;
+	height: auto;
+}

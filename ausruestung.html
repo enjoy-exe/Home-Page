@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ausrüstung</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ausrüstung</title>
 
-    <link rel="stylesheet" href="ausruestung.css">
-    <link rel="stylesheet" href="global.css">
+		<link rel="stylesheet" href="./css/ausruestung.css" />
+		<link rel="stylesheet" href="./css/global.css" />
+	</head>
+	<body>
+		<nav>
+			<a class="logo" href="./index.html">Startseite</a>
+			<input type="checkbox" id="toggle_button" />
+			<label for="toggle_button" class="toggle_button">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</label>
+			<ul>
+				<li><a href="./ausruestung.html">Ausrüstung</a></li>
+				<li><a href="./uebungen.html">Über mich</a></li>
+				<li class="expendable_li">
+					<input type="checkbox" id="uebungen_checkbox" />
+					<label for="uebungen_checkbox">Übungen</label>
+					<ul class="dropdown">
+						<li><a href="#">Druckübungen</a></li>
+						<li><a href="#">Zugübungen</a></li>
+						<li><a href="#">verschiedene Übungen</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
 
-</head>
-<body>
-    <nav>
-        <a class="logo" href="#">Startseite</a>
-        <input type="checkbox" id="toggle_button">
-        <label for="toggle_button" class="toggle_button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </label>
-        <ul>
-            <li><a href="./ausruestung.html">Ausrüstung</a></li>
-            <li><a href="#">Über mich</a></li>  
-            <li class="expendable_li">
-                <input type="checkbox" id="uebungen_checkbox">
-                <label for="uebungen_checkbox">Übungen</label>
-                <ul class="dropdown">
-                    <li><a href="#">Druckübungen</a></li>
-                    <li><a href="#">Zugübungen</a></li>
-                    <li><a href="#">verschiedene Übungen</a></li>
-                </ul>
-            </li>  
-        </ul>
-    </nav>  
+		<div class="main-container">
+			<h2 class="healine2"><u>Meine Ausrüstung</u></h2>
+			<div class="text">
+				<p>
+					Beim Calisthenics benötigt man an sich nicht viel Ausrüstung. Meiner Meinung nach braucht man nur ein Paar Turnringe. Angenommen es wird ein Platz gefunden an dem diese befestigt werden können. Mit diesen kann so gut wie jede Übung
+					ausgeführt werden.
+				</p>
+			</div>
 
-    <h2 class="healine2">
-        Meine Ausrüstung
-    </h2>   
-
-        Beim Calisthenics benötigt man an sich nicht viel Ausrüstung.<br>
-        Meiner Meinung nach braucht man nur ein Paar Turnringe.<br>
-        Angenommen es wird ein Platz gefunden an dem diese befestigt <br>
-        werden können. Mit diesen kann so gut wie jede Übung ausgeführt werden.<br><br>
-    
-        Die Ringe, die ich nutze:<br>
-    <div class="anordnungringe">
-        <a href="https://www.amazon.de/Turnringe-Holz-Rings-T%C3%BCranker-
-        Trainingsguide/dp/B01LX08N45/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%
-         95%C3%91&crid=2PEKJQ4ONVKQZ&keywords=bemaxx+turnringe&qid=1682804340&sprefi
-        x=bemaxx+turnringe%2Caps%2C83&sr=8-5"> Zu den Ringen.</a>
-
-         <div class="rings-container"> 
-            <img class="rings-image" src="equipment.rings.jpg"><br>
-         </div>
-    </div>
-    <br>
-        Die Parallettes, die ich nutze:
-        
-</body>
+			<div class="item-container">
+				<div class="item">
+					<p>Die Ringe, die ich nutze:</p>
+					<div class="img-container">
+						<img class="item-img" src="/img/equipment.rings.jpg" alt="Ringe" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Die Ringe, die ich nutze:</p>
+					<div class="img-container">
+						<img class="item-img" src="/img/equipment.rings.jpg" alt="Ringe" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Die Ringe, die ich nutze:</p>
+					<div class="img-container">
+						<img class="item-img" src="/img/equipment.rings.jpg" alt="Ringe" />
+					</div>
+				</div>
+				<div class="item">
+					<p>Die Ringe, die ich nutze:</p>
+					<div class="img-container">
+						<img class="item-img" src="/img/equipment.rings.jpg" alt="Ringe" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

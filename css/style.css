@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+.headline {
+	width: 100%;
+	text-align: center;
+	color: #243848;
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.quote {
+	width: 100%;
+	text-align: center;
+}
+
+.howbig {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
